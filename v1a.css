@@ -134,7 +134,7 @@ noindex:-o-prefocus,.content{z-index:3;}
 	text-align:right;
 }
 #stats #status #controls li{
-	background:url(rightp.svg) 100% 50% no-repeat;
+	background:url(img/rightp.svg) 100% 50% no-repeat;
 	background-size:auto 75%;
 }
 /* Vaultboy */
@@ -202,7 +202,7 @@ noindex:-o-prefocus,.content{z-index:3;}
 	left:-15px;;
 	width:15px;
 	height:7px;
-	background:url(decor.png);
+	background:url(img/decor.png);
 }
 #stats #status #vaultboy .bar.larm span,#stats #status #vaultboy .bar.lleg span{
 	display:inline-block;
@@ -211,7 +211,7 @@ noindex:-o-prefocus,.content{z-index:3;}
 	right:-15px;;
 	width:15px;
 	height:7px;
-	background:url(decor.png);
+	background:url(img/decor.png);
 	-webkit-transform:matrix(-1, 0, 0, 1, 0, 0);
 	-moz-transform:matrix(-1, 0, 0, 1, 0, 0);
 	-ms-transform:matrix(-1, 0, 0, 1, 0, 0);
@@ -363,7 +363,7 @@ noindex:-o-prefocus,.content{z-index:3;}
 	-o-transform:translate(0,-1000%);
 	transform:translate(0,-1000%);
 }
-#crt{background:transparent url(crt.png) repeat;}
+#crt{background:transparent url(img/crt.png) repeat;}
 #glare{
 	background:transparent -webkit-gradient(linear,left bottom,left top,from(transparent),to(rgba(255,255,255,0.09))) repeat-x;
 	background:transparent -webkit-linear-gradient(bottom,transparent,rgba(255,255,255,0.09)) repeat-x;
@@ -373,7 +373,7 @@ noindex:-o-prefocus,.content{z-index:3;}
 	background:transparent linear-gradient(to top,transparent,rgba(255,255,255,0.09)) repeat-x;
 }
 #smudge{
-	background:transparent url(smudge.png) repeat-x;
+	background:transparent url(img/smudge.png) repeat-x;
 	-webkit-background-size:100% auto;
 	-moz-background-size:100% auto;
 	-ms-background-size:100% auto;
@@ -386,7 +386,7 @@ noindex:-o-prefocus,.content{z-index:3;}
 #portrait{
 	display:block;
 	z-index:0;
-	background:url(land.svg) fixed center center no-repeat;
+	background:url(img/land.svg) fixed center center no-repeat;
 	background-size:70%;
 }
 }
