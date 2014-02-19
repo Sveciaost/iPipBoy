@@ -3,7 +3,8 @@
 	margin:0;
 	padding:0;
 }
-html,body{height:100%;overflow:hidden;}
+html{overflow:hidden;}
+body{position:absolute;height:100%;width:100%;overflow:auto;}
 body{
 	background:#000;
 	color:#00c859;
@@ -20,6 +21,13 @@ ul{list-style:none;}
 	right:0;
 	overflow:hidden;
 }
+img{
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;}
+
 /* Opera... Ugh */
 noindex:-o-prefocus,.content{z-index:3;}
 .head,.page,.nav{
