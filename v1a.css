@@ -278,6 +278,12 @@ noindex:-o-prefocus,.content{z-index:3;}
 }
 .list .photo{
 	height:63%;
+	text-align:center;
+	padding:15px;
+}
+.list .photo img{
+	max-width:100%;
+	height:100%;
 }
 .list .desc{
 	height:37%;
