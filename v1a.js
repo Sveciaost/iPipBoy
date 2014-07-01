@@ -23,10 +23,10 @@ $$('#data').swipeRight(function(){
 	$$('#data').style('display','none');
 	$$('#items').style('display','block');
 });
-$$('#stats').swipeDown(function(){
+/* $$('#stats').swipeDown(function(){
 	$$('#stats').style('display','none');
 	$$('#changes').style('display','block');
-});
+}); */
 });
 
 // Define lists to be auto-populated by using properties of objects and storing within arrays.
